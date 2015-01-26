@@ -1,0 +1,22 @@
+FileETag MTime
+
+AddType image/x-icon .ico
+
+<IfModule mod_headers.c>
+# 2 minutes
+<FilesMatch ".(ico|gif|jpg|jpeg|png|flv|pdf|ttf|otf|svg)$">
+ Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+# 2 minutes
+<FilesMatch ".(js|css|swf)$">
+ Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+# 2 minutes
+<FilesMatch ".(html|htm|txt|php)$">
+ Header set Cache-Control "max-age=2592000"
+</FilesMatch>
+</IfModule>
+
+<ifmodule mod_deflate.c>
+AddOutputFilterByType DEFLATE image/gif image/png image/jpeg image/x-icon application/pdf application/javascript application/x-javascript text/plain text/html text/css text/x-component text/xml application/json image/svg+xml text/javascript text/xml
+</ifmodule>

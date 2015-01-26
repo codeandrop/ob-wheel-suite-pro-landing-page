@@ -1,0 +1,10 @@
+/** Larger Screens - desktops and tablets **/
+@media all and (min-width: 990px) {
+
+  .screnshots {
+    text-align: center;
+    img {
+      width: 33%;
+     }
+  }
+}

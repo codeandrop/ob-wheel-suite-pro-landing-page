@@ -1,0 +1,59 @@
+
+h3 {
+  font-weight: bold;
+}
+
+.appcircus {
+  height: 95px;
+  width: auto;
+}
+
+.app-bar {
+  background-color: #fff;
+  color: #404040;
+}
+
+.header-page {
+  padding-top: 0px;
+  text-align: center;
+}
+
+.screnshots {
+  text-align: center;
+  img {
+    width: 40%;
+    // padding-right: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+.stores {
+  text-align: center;
+  img {
+    height: 60px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+  }
+}
+
+footer {
+  text-align: center;
+}
+
+
+.blue1 {
+  color: $blue1;
+}
+
+.blue2 {
+  color: $blue2;
+}
+
+.red1 {
+  color: $red1;
+}
+
+.red2 {
+  color: $red2;
+}
+
