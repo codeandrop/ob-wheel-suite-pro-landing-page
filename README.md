@@ -9,7 +9,7 @@ This a repo for the OB Wheel Suite Pro App Landing Page, based on [Web Starter K
 You can get the OB Wheel Suite Pro from here:
 
 [![App Store](https://devimages.apple.com.edgekey.net/app-store/marketing/guidelines/images/badge-download-on-the-app-store.svg)](https://itunes.apple.com/us/app/ob-wheel-suite-pro/id820945911?mt=8)
- 
+
 
 [![Google Play](http://developer.android.com/images/brand/en_generic_rgb_wo_45.png)](https://play.google.com/store/apps/details?id=com.adfeelonline.gestograma&hl=en)
 
@@ -17,4 +17,4 @@ You can get the OB Wheel Suite Pro from here:
 
 
 
-Copyright 2014 Adfeel Inc
+Copyright 2015 Adfeel Inc
